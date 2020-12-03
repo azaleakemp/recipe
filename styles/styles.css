@@ -20,5 +20,15 @@ h1, p {
 }
 
 .recipe-item__list{
-  list-style-image: url(http://www.w3.org/2000/svg)
+  list-style-image: url(../icons/bullet.svg);
+}   
+
+.recipe-item__instructions-list{
+
+}
+
+
+.recipe-item__instructions-list li::before {
+	background-color: orange !important; 
+	margin-right: 10px;
 }
